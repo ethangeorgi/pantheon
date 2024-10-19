@@ -1,3 +1,33 @@
+## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
+
+## v1.7.1 - [October 18, 2024](https://github.com/lando/pantheon/releases/tag/v1.7.1)
+
+* Updated to [@lando/php@1.5.0](https://github.com/lando/php/releases/tag/v1.5.0)
+* Removed `@lando/nginx`
+
+## v1.7.0 - [October 17, 2024](https://github.com/lando/pantheon/releases/tag/v1.7.0)
+
+* Updated all images to [gen4](https://hub.docker.com/repository/docker/devwithlando/pantheon-appserver/tags?name=-4)
+* Updated to [@lando/nginx@1.3.0](https://github.com/lando/nginx/releases/tag/v1.3.0)
+* Updated to [@lando/php@1.4.0](https://github.com/lando/php/releases/tag/v1.4.0)
+
+## v1.6.0 - [October 16, 2024](https://github.com/lando/pantheon/releases/tag/v1.6.0)
+
+* Fixed blocking `certs` issues [#261](https://github.com/lando/pantheon/issues/261) [#262](https://github.com/lando/pantheon/issues/262)
+* Improved perfomance during `lando init` when `--pantheon-site` is passed in [#254](https://github.com/lando/pantheon/issues/254)
+
+## v1.5.0 - [April 30, 2024](https://github.com/lando/pantheon/releases/tag/v1.5.0)
+
+* Added Drupal10 config file to allow for a `framework: drupal10` value. [#242](https://github.com/lando/pantheon/issues/242)
+
+## v1.4.2 - [April 5, 2024](https://github.com/lando/pantheon/releases/tag/v1.4.2)
+
+* Fixed issue with the previous portforward fix. [#237](https://github.com/lando/pantheon/issues/237)
+
+## v1.4.1 - [April 5, 2024](https://github.com/lando/pantheon/releases/tag/v1.4.1)
+
+* Fixed issue with portforwarding no longer being available on the `database` service. [#237](https://github.com/lando/pantheon/issues/237)
+
 ## v1.4.0 - [April 1, 2024](https://github.com/lando/pantheon/releases/tag/v1.4.0)
 
 **CRITICAL FIX**
